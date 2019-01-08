@@ -1,0 +1,74 @@
+
+h1{
+
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+}
+div{
+	
+	margin: 0;
+	padding: 0;
+}
+section{
+	width: 500px;
+	margin: 0 auto;
+	padding: 0;
+	position: relative;
+}
+
+section div#corpsHumain, section div#text{
+	height: 500px;
+	box-sizing: border-box;
+
+}
+#corpsHumain{
+	background-image: url("../img/lecorps.png");
+	background-repeat: no-repeat;
+	width: 150px;
+	float: left;
+}
+#text{
+	padding-top: 90px;
+	width: 400px;
+	height: 100%;
+	margin-left: 250px;
+}
+
+.rond{
+	background-color: #00000077;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	position: absolute;
+}
+.active{
+	background-color: #FF000077;
+}
+.texte{
+	display: none;
+}
+
+#epaule{
+	top: 15%;
+	left: 2%;
+}
+#coude{
+	top: 33%;
+	left: 21%;
+}
+#poignet{
+	top: 43%;
+	left: -1%;
+}
+#hanche{
+	top: 45%;
+	left: 18%;
+}
+#genoux{
+	top: 67%;
+	left: 6%;
+}
+#cheville{
+	top: 85%;
+	left: 14%;
+}
